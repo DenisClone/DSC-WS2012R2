@@ -12,7 +12,10 @@ jobs:
       - name: test1
         run: echo "print test 1"
       - name: test2
-        run: echo "print test 2"
+        run: |
+          echo "print test 2"
+          echo "Print test 2-1"
+          echo "Print test 2-2"
 
 
         
